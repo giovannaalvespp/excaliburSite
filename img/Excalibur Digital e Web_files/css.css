@@ -1,0 +1,43 @@
+.menu{
+    background-color: #69bd45;
+}
+ul li{
+    font-size: 150%;
+    background-color: #69bd45;
+}
+ul li a:hover{
+    color: black;
+    transition: 1s;
+}
+nav img {
+    max-width: 15%;
+    float: right;
+}
+label[for="bt_menu"]{
+    background-color: #69bd45;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    display: none;
+}
+#bt_menu{
+    display: none;
+}
+@media(max-width: 800px){
+    .menu ul li{
+        width: 100%;
+        float: none;
+    }
+    label[for="bt_menu"]{
+        display: block;
+    }
+    .menu{
+        margin-left: -100%;
+        transition: all .4s;
+    }
+    #bt_menu:checked ~ .menu{
+        margin-left: 0;
+    }
+
+
+}

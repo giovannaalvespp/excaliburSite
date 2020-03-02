@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Excalibur - Digital e Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <section class="header-site">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center">Excalibur Digital e Web</h1>
+                    <p class="lead text-center">Soluções digitais e web</p>
+                    <p class="text-center">
+                        <a href="#contato" class="btn-danger btn">Fale conosco</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="serv-site">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center servico">Nossos Serviços</h2><br>
+                </div>
+                <div class="col-md-3 desc">
+                    <h3 class="text-center">Criação de website</h3>
+                    <p class="text-center">Responsivo com SEO otimizado</p><br><br>
+                    <h3 class="text-center">Criação de e-commerce</h3>
+                    <p class="text-center">Para sua empresa vender online</p>
+                </div>
+                <div class="col-md-3 desc">
+                    <h3 class="text-center">Criação de aplicativos</h3>
+                    <p class="text-center">Para iPhone e Android</p><br><br>
+                    <h3 class="text-center">Otimização do SEO</h3>
+                    <p class="text-center">Para melhorar o ranking na pesquisa do Google</p>
+                </div>
+                <div class="col-md-6 ">
+                    <img src="img/pedra.png" alt="" class="rounded img-fluid float-right">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="card-site">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card float-md-right" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Acesse nosso portfólio</h5>
+                          <p class="card-text">Aqui você encontra os trabalhos realizados para nossos clientes</p>
+                          <a href="potfolio.excaliburdigital.com.br" target="_blank" class="btn btn-primary bg-dark">Visitar</a>
+                        </div>
+                      </div>
+                </div><br>
+                <div class="col-12 col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Acesse nosso Blog</h5>
+                          <p class="card-text">Aqui você encontra as novidades no mundo do design e sistemas</p>
+                          <a href="blog.excaliburdigital.com.br" target="_blank" class="btn btn-primary bg-dark">Visitar</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contato" id="contato">
+        <div class="container-fluid">
+            <h2>Entre em contato</h2><br>
+            <div class="row">
+                <div class="col-12">
+                    <form class="formcontato" method="POST">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" name="nome" id="nome" aria-describedby="helpId" placeholder="Nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="mail">E-mail</label>
+                            <input type="email" class="form-control" name="mail" id="mail" aria-describedby="helpId" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="tel">Telefone</label>
+                            <input type="number" name="tel" id="tel" class="form-control" placeholder="(00)00000-0000">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea class="form-control" placeholder="Escreva aqui sua mensagem" name="mensagem" id="mensagem" rows="3"></textarea>
+                        </div>
+                        <div class="container center">
+                            <div class="row">
+                                <button onclick="enviarForm()" class="enviaform bg-dark">Enviar</button>
+                                <div id="resultado"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="footer-site">
+        <footer class="bg-dark">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="footercontato"><b>Contato</b><br> <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511956988040"> +55 (11) 95698-8040</a><br> comercial@excaliburdigital.com.br
+                            <br>
+                            <a href="https://www.facebook.com/excaliburdigitaldesign/" target="_blank">Facebook</a><br>
+                            <a href="https://www.instagram.com/excaliburdigital/" target="_blank">Instagram</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

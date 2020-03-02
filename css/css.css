@@ -1,0 +1,58 @@
+.header-site{
+    background-image: url(stone.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 600px;
+}
+.content-ste{
+    background-image: url(fundoser.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgser{
+    margin-left: -300px;
+    
+}
+.img-site{
+    background-image: url(mai.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 500px;
+    
+}
+
+.thumbnail{
+    max-width: 220px;
+}
+.contato{
+    background-color: #69bd45;
+    color: #8e45bd;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 250px;
+}
+.contato a{
+    color: #8e45bd;
+}
+.footer-site{
+    color: #8e45bd;
+    
+}
+.footer-site a{
+    color: #8e45bd;
+}
+.footercontato{
+    padding-left: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
